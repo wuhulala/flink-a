@@ -1,4 +1,4 @@
-package com.wuhulala.flink.dataset;
+package com.wuhulala.flink.dataset.advance;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.DataSet;

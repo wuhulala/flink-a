@@ -1,4 +1,4 @@
-package com.wuhulala.flink.dataset;
+package com.wuhulala.flink.dataset.advance;
 
 import org.apache.flink.api.common.functions.GroupReduceFunction;
 import org.apache.flink.api.common.functions.JoinFunction;

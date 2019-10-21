@@ -12,7 +12,7 @@ public class DataSetHdfsSourceExample {
 
     public static void main(String[] args) throws Exception {
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
-        DataSource<String> text = env.readTextFile("hdfs://flinkhadoop:29000/wordcount/input/README.txt");
+        DataSource<String> text = env.readTextFile("hdfs://flinkhadoop:9000/wordcount/input/README.txt");
         text.print();
     }
 }

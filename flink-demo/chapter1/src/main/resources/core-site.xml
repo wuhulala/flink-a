@@ -2,6 +2,6 @@
 <configuration>
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://flinkhadoop:29000/</value>
+        <value>hdfs://flinkhadoop:9000/</value>
     </property>
 </configuration>

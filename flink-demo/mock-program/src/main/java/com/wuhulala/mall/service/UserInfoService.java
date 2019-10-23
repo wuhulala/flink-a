@@ -28,7 +28,7 @@ public class UserInfoService {
         this.userInfoDao = userInfoDao;
     }
 
-    @Scheduled(cron = "0/5 * * * * *")
+    @Scheduled(cron = "* 0/5 * * * *")
     public void initPeople() {
 
         log.info("init People Start ");

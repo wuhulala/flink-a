@@ -61,7 +61,7 @@ public class UserGeneratorUtils {
         return 0;
     }
 
-    private static String getAddress() {
+    public static String getAddress() {
         JSONObject tmp = (JSONObject) getRandomByList(addressObject);
         if (tmp == null) {
             return "";
